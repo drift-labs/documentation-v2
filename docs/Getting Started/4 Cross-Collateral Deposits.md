@@ -28,6 +28,8 @@ For instance, depositing USDC gives users a 1:1 margin for derivatives trading, 
 | wETH (portal) | 80%                      | 90%                          | 120%                         | 110%                             | 0.025          |
 | USDT          | 90%                      | 95%                          | 110%                         | 105%                             | 0.0004         |
 | JitoSOL       | 80%                      | 90%                          | 120%                         | 110%                             | 0.00055        |
+| PYTH          | 50%                      | 75%                          | 150%                         | 125%                             | 0.001          |
+| bSOL          | 80%                      | 90%                          | 120%                         | 110%                             | 0.00055        |
 
 The IMF Factor acts as a discount on account size:
 
