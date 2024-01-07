@@ -28,8 +28,6 @@ For instance, depositing USDC gives users a 1:1 margin for derivatives trading, 
 | wETH (portal) | 80%                      | 90%                          | 120%                         | 110%                             | 0.025          |
 | USDT          | 90%                      | 95%                          | 110%                         | 105%                             | 0.0004         |
 | JitoSOL       | 80%                      | 90%                          | 120%                         | 110%                             | 0.00055        |
-| PYTH          | 50%                      | 75%                          | 150%                         | 125%                             | 0.001          |
-| bSOL          | 80%                      | 90%                          | 120%                         | 110%                             | 0.00055        |
 
 The IMF Factor acts as a discount on account size:
 
@@ -46,5 +44,3 @@ An asset's liability weight can be converted into an LTV ratio using:
 | **Asset** | **Initial LTV** | **Max LTV** |
 | --------- | --------------- | ----------- |
 | SOL       | 83.3%           | 90.9%       |
-
-Based on these parameters, along with other parameters such as the oracle price, token decimals, etc, Drift can dynamically calculate deposits to be scaled on their initial asset weights. As a reference, you can check out the [`SpotMarket`](https://github.com/drift-labs/protocol-v2/blob/master/programs/drift/src/state/spot_market.rs) [`get_scaled_initial_weight_asset`](https://github.com/drift-labs/protocol-v2/blob/master/programs/drift/src/state/spot_market.rs#L314) function.

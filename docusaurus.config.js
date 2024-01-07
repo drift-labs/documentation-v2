@@ -81,6 +81,7 @@ const config = {
                         position: "left",
                         label: "Docs",
                     },
+                    
                     //    { to: "/blog", label: "Blog", position: "left" },
 
                     {
@@ -100,6 +101,7 @@ const config = {
                 appId: "CUKQY5DIF0", // Todo
                 apiKey: "85829b8cb9ff89da0c174440c43ad1b1", // Todo
                 indexName: "umentation-v2",
+
                 contextualSearch: true,
                 searchPagePath: false,
             },
